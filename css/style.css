@@ -1,0 +1,33 @@
+body {
+margin: 0 auto;
+border: solid 1px yellow;
+position: relative;
+height: 100%;
+
+}
+header {
+    border: solid 1px black;
+    width: 1490px;
+    height: 90px;
+    background-color: rgba(242, 120, 92, 0.7);
+    position: absolute;
+
+}
+
+main {
+    border: solid 1px red;
+    
+
+}
+footer{
+    border: solid 1px purple;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.play_your_trip {
+    border: solid 1px green;
+    
+
+}
