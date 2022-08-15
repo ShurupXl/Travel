@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
 @font-face {font-family: Magra ; src: url(..//fonts/Magra\ Bold\ 600.ttf);}
-@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Magra:wght@400;700&display=swap');
+@font-face {font-family: Aleo ; src: url(..//fonts/Aleo-Bold.otf);}
 
 * {
     margin: 0 auto;
@@ -89,7 +89,8 @@ header {
 }
 
 section.preview {
-    
+    background: url(..//img/Header/garrett-parker-1.png) no-repeat;
+    height: 765px; 
     
 }
 .preview__background {
@@ -98,7 +99,7 @@ section.preview {
     height: 765px;
 }
 
-.preview__container {
+.preview__head {
     
     width: 892px;
     height: 422px;
@@ -117,5 +118,32 @@ font-size: 80px;
 line-height: 96px;
 
 color: #FFFFFF;
+
+}
+
+.preview__text {
+    padding-top: 45px;
+    padding-bottom: 46px ;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;    
+}
+
+.hole {
+width: 892px;
+height: 95px;
+opacity: 80%;
+border-radius: 16px;
+border: none;
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #F2785C;
+
 
 }
