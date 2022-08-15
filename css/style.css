@@ -1,105 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
+@font-face {font-family: Magra ; src: url(..//fonts/Magra\ Bold\ 600.ttf);}
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Magra:wght@400;700&display=swap');
 
-
-body {
-    position: relative;
-    width: 1440px; 
+* {
     margin: 0 auto;
-    border: solid black 1px;;
-   
+    padding: 0;
+    max-width: 1440px;
 }
+
+a   {
+    color: #FFFFFF;
+    text-decoration:none; 
+
+}
+    /* header */
+
 header {
-    position: absolute;
-    width: 1440px;
+    width: 1440px;  
     height: 90px;
+    display: flex;
     background: rgba(242, 120, 92, 0.7);
-    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);  
+    position: absolute;
     z-index: 1;
-}
-main {
-
-}
-   
-
-footer {
-position: absolute;
-width: 1440px;
-height: 61px;
-bottom: 0;
+    }
 
 
-}
-
-h1{
-color: #FFFFFF;
-}
-h2 {
-    font-family: 'Red Hat Text', sans-serif;
+.header__nav {
+    display:flex;
+    justify-content: space-between;
+    column-gap: 42px;
+    align-items: center;
+    width: 527px;
+    margin: auto 0;
+    font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 53px;
-    color: #F2785C;
-}
-
-.preview {
-  background: url(..//img/garrett-parker-1.png) no-repeat;  
-  height: 765px;
-  margin: 0 auto;
-}
-
-
-
-.steps {
-    width: 1440px;
-    height: 424px;
-
-}
-
-.destinations {
-    position: relative;
-    width: 1440px;
-    height: 1162px;
-    
-    overflow: hidden;
-   
-
-}
-
-.destinations__slider img {
-    width: 800px;
-    height: 800px;
-    margin: auto 30px;
-    border-radius: 16px;
-    
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
     }
-.destinations__slider {
-    display: flex;
-    position: absolute;
-    left: -570px;
-    margin-top: 46px;
-}
 
-.stories {
-    background: url(..//img/Rectangle\ 33.png) no-repeat;
-    width: 1450px;
-    height: 1331px;
+.header__logo {
+    width: 180px;
+    margin: 25px 158px 34px 156px;
+    align-self: flex-end;
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
     position: relative;
-    margin: auto 0;
-    left: -4px;
-}
-.stories__head {
-    padding-left: 552px;
-    display: block;
-    margin: auto 0;
-}
 
-.stories__bg {
-    position: relative;
-    width: 1440px;
-    height: 1270px;
-    background: rgba(255, 255, 255, 0.7);
-    margin: auto 0;
+ }
+
+ .header__logo::before {
+     content: url(..//img/Header/Vector.png);
+     position: absolute;
+     left: -35px;
+ }
+ 
+ .header__button {
+     
+     display: flex;
+     align-items: center;
+     margin: 0;
+     margin-left: 196px;
+     
+     
+ }
+
+ button.login {
+     
+    width: 103px;
+    height: 41px ;   
+        
+    background-color: #0D606F;;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
     
-   
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px; 
+    color: white;
+    border: 0;
+}
+
+section.preview {
+    
+    
+}
+.preview__background {
+    
+    background: url(..//img/Header/garrett-parker-1.png) no-repeat;
+    height: 765px;
+}
+
+.preview__container {
+    
+    width: 892px;
+    height: 422px;
+    padding-top: 122px;
+    padding-left: 120px;
+    margin: 0;
+    
+}
+
+h1 {
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+
+color: #FFFFFF;
+
 }
