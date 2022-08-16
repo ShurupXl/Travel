@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
 @font-face {font-family: Magra ; src: url(..//fonts/Magra\ Bold\ 600.ttf);}
-@font-face {font-family: Aleo ; src: url(..//fonts/Aleo-Bold.otf);}
+@font-face {font-family: Aleo ; src: url(..//fonts/Aleo-Bold.otf);
+}
+@font-face {
+    font-family:Aleo; src:url(..//fonts/Aleo-Italic.otf);}
+
+@import url('https://allfont.ru/allfont.css?fonts=aleo-bold)');
 
 * {
     margin: 0 auto;
@@ -111,7 +116,7 @@ section.preview {
 
 h1 {
 
-font-family: 'Aleo';
+font-family: 'Aleo Bold';
 font-style: normal;
 font-weight: 700;
 font-size: 80px;
@@ -143,7 +148,12 @@ font-style: italic;
 font-weight: 400;
 font-size: 24px;
 line-height: 29px;
-color: #F2785C;
 
 
+
+}
+
+::placeholder {
+    color:#F2785C;
+    padding-left: 41px;
 }
